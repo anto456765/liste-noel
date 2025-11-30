@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #FF2C2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    padding: 1rem;
+    box-shadow: 4px 4px 8px green;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+main {
+    margin: 2rem;
+    background-color: green;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: -4px -4px 8px greenyellow, 
+    inset -4px -4px 8px greenyellow;
+}
+
+li {
+    margin: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    margin: 3rem;
+}
